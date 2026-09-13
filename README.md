@@ -1,8 +1,16 @@
-# RNode.js
+# RS-Node.js
 
 Node.js のコア概念を、既存の Node.js 実装コードを一切流用せず Rust で
 一から再実装するプロジェクト([RFrontEnd](https://github.com/aon-co-jp)
 エコシステム傘下)。
+
+## リポジトリ改称(2026-09-13)
+
+`RNode.js`→`RS-Node.js`へGitHub上でrename済み。`aruaru.pro`向けの
+フロント基盤整備に合わせた`RFrontEnd`傘下のネーミング統一の一環
+(`RS-HTML`・`RS-CSS`・`RS-GraphQL`も同時に改称)。crate名(`rnodejs`)は
+依存元が無いため変更しても影響は無いが、他の3リポジトリと揃えて
+今回は見送り。以下の記述内の`RNode.js`表記は改称前の履歴として残す。
 
 ## これは何か(v0.1.0 の正直なスコープ)
 
